@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Sans');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	position: absolute;
+	right: 4%;
+	left: 4%;
+}
+
+.unmul-logo{
+	position: absolute;
+	width: 4%;
+	height: auto;
+	left: 0;
+	top: 0;
+	margin: 1em;
+	z-index: 2;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	right: 1.5em;
+	top: 2em;
+
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #08cf00;
+	margin: 1em;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.head-img-sett{
+	width: 100%;
+	height: auto;
+	transform: scale(1,1);
+	position: absolute;
+	background-attachment: fixed;
+}
+
+.head-container{
+	width: 100%;
+	height: 810px;
+}
+
+.head-container h1{
+	position: absolute;
+	top: 10%;
+	font-size: 42px;
+	color: #3d3d3d;
+	left: 10%;
+}
+
+.head-container h3{
+	position: absolute;
+	top: 15%;
+	font-size: 18px;
+	color: #2c6b33;
+	left: 10%;
+}
+
+.desc-sistem{
+	width: 50%;
+	height: 20vh;
+	text-align: justify;
+	margin: 10% 0 0 15%;
+}
+
+.desc-sistem h1{
+	font-weight: 100;
+	opacity: 0.7;
+}
+
+.desc-sistem p{
+	font-size: 15px;
+	font-family: Montserrat;
+	font-weight: 600;
+}
+
+table{
+	margin-top: 10%;
+}
+
+table tr td{
+	box-shadow: 0px 15px 20px 0px #e6e6e6;
+}
+
+table tr td p{
+	font-size: 14px;
+	font-family: PT Sans;
+}
+
+footer{
+	width: 100%;
+	height: 400px;
+}
+
+.gallery-corn{
+	margin: 10% 0 0 25%;
+	height: 500px;
+}
+
+.gallery-corn .img1{
+	width: 50%;
+	height: auto;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.gallery-corn .img2{
+	width: 30%;
+	height: auto;
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 30%;
+}
+
+.gallery-corn .img3{
+	width: 20%;
+	height: auto;
+	position: absolute;
+	margin-left: -10%;
+	margin-top: 20%;
+}
+
+footer{
+	width: 100%;
+	height: 250px;
+	margin-top: 10%;
+}
+
+footer h2{
+	color: brown;	
+}
+
+footer h3{
+	color: green;	
+}
+
+footer img{
+	margin: 10px;
+	cursor: pointer;
+}
+
+footer p{
+	font-size: 14px;
+}
